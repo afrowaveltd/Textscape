@@ -19,6 +19,6 @@ This is a **preliminary record of design intentions**, not a formal ratified ADR
 | D-013 | Localization first | Core principle | English docs, localized interface and prompts |
 | D-014 | License policy | **Unresolved** | Public repository is not automatically open-source licensed |
 
-## ADR template
+## ADR template and decision governance
 
-Create `NNNN-short-title.md` containing: context, options, decision, status, consequences, testing/rollback and date. Reject unverified claims and distinguish requirements from implementation choices.
+Copy [0000-template.md](0000-template.md) to a numbered `NNNN-short-title.md`. Include context, options, decision status, consequences, proof requirements, rollback and date. Keep accepted records in history even if superseded. An ADR may be **Accepted** without the related feature being implemented; only [IMPLEMENTATION_STATUS.md](../../IMPLEMENTATION_STATUS.md) records actual completion. Do not silently promote a proposed decision to accepted.
