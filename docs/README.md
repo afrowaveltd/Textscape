@@ -22,6 +22,7 @@ Resolve contradictions explicitly, with a documented decision; do not quietly re
 | [Rust / C / C++ language architecture](architecture/LANGUAGE-AND-FFI.md) | Language ownership and native FFI contract |
 | [Afrowave civil-only licensing policy](licensing/AFROWAVE-CIVIL-ONLY-POLICY.md) | Approved ethics direction; legal text remains pending |
 | [Risk-based AHPL precedent review](licensing/RISK-BASED-AHPL-REVIEW.md) | Why Textscape warrants additional protection; pitfalls of prior template |
+| [Humanitarian emergency exceptions](licensing/HUMANITARIAN-EXCEPTIONS.md) | Case-by-case, short-lived rescue permissions even with military participants |
 | [Browser and JS adapters](architecture/BROWSER-RUNTIME.md) | Replaceable engines, DOM, rendering |
 | [Workloads and background worker](architecture/WORKLOADS.md) | Durable tasks, monitoring, persistence |
 | [Mail and notifications](architecture/MAIL-NOTIFICATIONS.md) | Textbird, badges, desktop/BEL |
