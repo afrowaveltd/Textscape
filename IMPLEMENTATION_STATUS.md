@@ -17,6 +17,7 @@
 - **Localizations:** localization-first is documented; no localization resources or translations have been implemented.
 - **Language direction:** **Rust-first core with versioned C ABI and optional narrow C/C++ native adapters ACCEPTED.** No language-specific application source, FFI implementation or toolchain validation exists yet. See [ADR 0001](docs/decisions/0001-rust-first-native-interop.md).
 - **Third-party engine selection:** not finalized; candidates are research subjects, not integrated dependencies. Third-party license compatibility remains unverified.
+- **Misuse threat model:** explicit scenario for repressive exploitation of Author Watchers, AI and background collection documented in [threat model](docs/security/THREAT-MODEL.md); mitigations and misuse tests remain entirely NOT_IMPLEMENTED / NOT_RUN.
 
 ## Component status
 
@@ -74,5 +75,6 @@ The distinction between *documented concept* and *implemented code* is mandatory
 | 2026-10-17 | Initial concept documentation and Git repository published | [Repository](https://github.com/afrowaveltd/Textscape) |
 | 2026-10-17 | Canonical implementation status, docs index and working process established | Initial documentation commits; no implementation or test execution implied |
 | 2026-10-17 | Rust-first C ABI / C++ adapter direction accepted; civil-only ethical policy recorded | [ADR 0001](docs/decisions/0001-rust-first-native-interop.md), [ADR 0002](docs/decisions/0002-afrowave-civil-only-policy.md); no source code or final license |
+| 2026-10-17 | Threat model expanded: coercive misuse of author-monitoring, AI and worker by repressive actors | [Threat model](docs/security/THREAT-MODEL.md) and [licensing rationale](docs/licensing/AFROWAVE-CIVIL-ONLY-POLICY.md); no safeguards have been implemented/tested |
 
 **Reminder:** These checkboxes describe documentation/repository preparation only. They do not imply a functional browser.
