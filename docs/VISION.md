@@ -23,12 +23,12 @@ Use the **most precise and strongest wording warranted by available evidence**. 
 
 ## Constraints and priorities
 
-- Rust is the current leading host-language proposal, not yet an irrevocable choice.
+- **Accepted implementation direction:** Rust is the primary Textscape-owned language; stable C-compatible interfaces and narrowly scoped C/C++ wrappers support third-party native engines only when needed. Specific crates, FFI signatures and engine choices require tests; see [language architecture](architecture/LANGUAGE-AND-FFI.md).
 - Native terminal UI first; optional GUI later only if justified.
 - Single app UX, separate replaceable services beneath it.
 - No arbitrary feature tiers for 2 GB versus modern machines; schedule work lazily and respect constrained resources.
 - Prefer RSS/Atom and official APIs to aggressive scraping; use DOM and optional AI only when necessary.
-- Open components must have licenses permitting long-term maintenance/forking; independently review transitive obligations.
+- Source is intended to be publicly inspectable and freely usable/modifiable for civilians under a **custom Afrowave Civil-Only license** that excludes military, policing, intelligence and repressive use. Final operative text has not been adopted and is not OSI Open Source; see [licensing policy](licensing/AFROWAVE-CIVIL-ONLY-POLICY.md). Third-party components retain their own licenses and must permit lawful integration, long-term maintenance/forking and redistribution under the chosen packaging model.
 - Work should be staged: define expected behavior, build tests, implement a small vertical slice, verify, then expand.
 
 ## Explicit non-goals for the first implementation
