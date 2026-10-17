@@ -19,6 +19,8 @@ Resolve contradictions explicitly, with a documented decision; do not quietly re
 | --- | --- |
 | [Vision](VISION.md) | Mission, principles, intended users |
 | [System architecture](architecture/SYSTEM.md) | Modules, dependency and trust boundaries |
+| [Rust / C / C++ language architecture](architecture/LANGUAGE-AND-FFI.md) | Language ownership and native FFI contract |
+| [Afrowave civil-only licensing policy](licensing/AFROWAVE-CIVIL-ONLY-POLICY.md) | Approved ethics direction; legal text remains pending |
 | [Browser and JS adapters](architecture/BROWSER-RUNTIME.md) | Replaceable engines, DOM, rendering |
 | [Workloads and background worker](architecture/WORKLOADS.md) | Durable tasks, monitoring, persistence |
 | [Mail and notifications](architecture/MAIL-NOTIFICATIONS.md) | Textbird, badges, desktop/BEL |
@@ -46,6 +48,8 @@ Resolve contradictions explicitly, with a documented decision; do not quietly re
 | [Roadmap](planning/ROADMAP.md) | Suggested development stages |
 | [Open questions](planning/OPEN-QUESTIONS.md) | Unresolved decisions |
 | [Decision log](decisions/README.md) | ADR index and decision status |
+| [ADR 0001: Languages and interop](decisions/0001-rust-first-native-interop.md) | Accepted Rust-first direction |
+| [ADR 0002: Civil-only policy](decisions/0002-afrowave-civil-only-policy.md) | Accepted restrictions; no operative LICENSE |
 | [ADR template](decisions/0000-template.md) | Repeatable proposal/decision record |
 | [Publishing notes](planning/PUBLISHING.md) | Historical initial-publication guide |
 
