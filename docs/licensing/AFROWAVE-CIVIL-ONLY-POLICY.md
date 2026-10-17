@@ -16,6 +16,10 @@ Textscape is designed to let users watch authors and publications, aggregate inf
 
 This is not a claim that a license makes misuse impossible. Code can be copied unlawfully, and upstream libraries carry separate permissions. Legal disincentives, clear conditions for official distribution and catalog participation, and privacy-preserving product architecture should reinforce each other. See [misuse threat model](../security/THREAT-MODEL.md).
 
+## Risk-based choice, not a mandatory license for all Afrowave projects
+
+Afrowave can apply different licenses to different projects according to the foreseeable severity of misuse. A small utility can retain MIT while a high-risk author-monitoring/AI automation system such as Textscape warrants stronger civil-only protection. An earlier internal AHPL v1 license offers a useful precedent, **not binding Textscape text**. Its broad surveillance wording, unusually high penalties and open-ended ethics clause need careful review so peaceful civilian article watchers remain permitted and legal restrictions are specific and potentially enforceable. See [risk-based AHPL review](RISK-BASED-AHPL-REVIEW.md).
+
 ## Intended prohibited recipients / uses
 
 The finalized terms must address **direct and indirect** usage, modifications, derivative works, distribution and use through intermediaries or contractors **on behalf of or for the benefit of**:
