@@ -10,6 +10,12 @@ Textscape should be **publicly readable, modifiable, forkable, sharable and free
 
 A central Afrowave requirement is that **the project and Afrowave-owned code must not be licensed for military, policing, intelligence, surveillance/repression or comparable coercive uses anywhere in the world**. A country, alliance, supplier or political affiliation does not receive an exemption merely through its identity.
 
+## Why these restrictions matter for Textscape
+
+Textscape is designed to let users watch authors and publications, aggregate information across sites, monitor changes, classify material with AI, and automate background alerts. In the hands of a repressive institution, those exact tools could help **identify, profile and track critical journalists, dissidents and opposition voices**. Afrowave's civil-only restriction is intended to avoid **legally facilitating** that use, not to stigmatize everyday reading, research or ordinary civilian users.
+
+This is not a claim that a license makes misuse impossible. Code can be copied unlawfully, and upstream libraries carry separate permissions. Legal disincentives, clear conditions for official distribution and catalog participation, and privacy-preserving product architecture should reinforce each other. See [misuse threat model](../security/THREAT-MODEL.md).
+
 ## Intended prohibited recipients / uses
 
 The finalized terms must address **direct and indirect** usage, modifications, derivative works, distribution and use through intermediaries or contractors **on behalf of or for the benefit of**:
@@ -38,6 +44,7 @@ These are the **intended permissions**, not yet rights conferred by an executabl
 - A public GitHub repository, visible source, draft policy or ethical notice does **not** by itself supply a reusable software license.
 - **Upstream source keeps its original license.** MIT, BSD, MPL, GPL and other dependencies cannot have Afrowave restrictions attached to their upstream rights by declaration. Some copyleft integrations or redistribution forms may prohibit additional use restrictions. Verify every candidate engine and distribution model *before* integrating it.
 - Do not automatically assert that the policy legally binds every recipient who merely reads the public repository, or that a restriction is globally enforceable.
+- **Previously released software under permissive terms cannot be retroactively clawed back from recipients.** For example, separate existing Afrowave projects using MIT remain governed by the MIT grant for versions already distributed under it. A future Textscape civil-only license cannot silently replace those rights.
 - Clearly separate Afrowave-owned copyright from third-party code, fixtures, generated sources, bundled binaries, icons and community contributions. Keep SPDX notices and a license/SBOM inventory.
 
 Relevant references:
