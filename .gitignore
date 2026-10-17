@@ -1,0 +1,28 @@
+# Rust / build artifacts
+/target/
+**/target/
+*.pdb
+*.profraw
+*.profdata
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+secrets/
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Generated conformance reports & caches
+/reports/
+/cache/
+/tmp/
+*.log
