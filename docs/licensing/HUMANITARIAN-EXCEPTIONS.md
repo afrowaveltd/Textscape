@@ -9,6 +9,10 @@ Afrowave's civil-only restriction is meant to prevent its technology from facili
 
 **No organization is automatically entitled to a license because it declares its purpose humanitarian, military-defense-related, urgent or lawful.** The exceptional permission must be approved individually and explicitly.
 
+## Absolute restriction under refinement
+
+The owner is proposing that **no humanitarian or defense-related exception may ever authorize use serving repression of people or groups**, even under color of criminal proceedings. Potential use by an attacked state for civilian harm reduction, as distinct from retaliation, is under discussion; this is **not yet an issued grant** and does not broaden existing permissions. See [Use-Based Protection Proposal](USE-BASED-PROTECTION-PROPOSAL.md).
+
 ## Exception principles
 
 1. **Individual assessment:** a concrete documented request, named applicant and identified authorized operating parties; examine actual purpose, affected civilians, known risks and feasible civilian alternatives.
