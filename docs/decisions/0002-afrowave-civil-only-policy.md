@@ -26,6 +26,10 @@ Document and pursue an **Afrowave Civil-Only ethical source-available license** 
 
 Textscape's author-monitoring, aggregation and background AI tools make repression and targeting misuse unusually foreseeable. The chosen protection is **project-specific** and does not automatically amend other Afrowave software licenses (for example, already distributed MIT utilities). Afrowave's existing AHPL v1 is a reference, not text adopted by this ADR. Its wording must be assessed to avoid banning normal civilian monitoring of published articles, and its penalty clauses must be independently reviewed for enforceability. See [risk-based AHPL review](../licensing/RISK-BASED-AHPL-REVIEW.md).
 
+## Open refinement: institutional bans versus non-derogable anti-repression rule
+
+The owner has proposed a **no-exception ban on technology use serving persecution or repression of individuals/groups**, including when a state invokes criminal prosecution or brands opponents "terrorists". Conversely, a state under attack may need to use tools to minimize harm and protect civilians, not for retaliatory targeting. The exact relation between this conduct-based boundary and the prior categorical bans on institutions remains **unresolved**. The original approved policy remains documented; no implicit authorization is created. See [Use-Based Protection Proposal](../licensing/USE-BASED-PROTECTION-PROPOSAL.md).
+
 ## Consequences
 
 - Public repository != unrestricted reuse.
