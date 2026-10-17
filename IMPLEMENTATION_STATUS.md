@@ -77,5 +77,6 @@ The distinction between *documented concept* and *implemented code* is mandatory
 | 2026-10-17 | Canonical implementation status, docs index and working process established | Initial documentation commits; no implementation or test execution implied |
 | 2026-10-17 | Rust-first C ABI / C++ adapter direction accepted; civil-only ethical policy recorded | [ADR 0001](docs/decisions/0001-rust-first-native-interop.md), [ADR 0002](docs/decisions/0002-afrowave-civil-only-policy.md); no source code or final license |
 | 2026-10-17 | Threat model expanded: coercive misuse of author-monitoring, AI and worker by repressive actors | [Threat model](docs/security/THREAT-MODEL.md) and [licensing rationale](docs/licensing/AFROWAVE-CIVIL-ONLY-POLICY.md); no safeguards have been implemented/tested |
+| 2026-10-17 | Individual, purpose- and time-limited humanitarian rescue exception principle documented, including disaster relief with military assistance | [Humanitarian Exceptions](docs/licensing/HUMANITARIAN-EXCEPTIONS.md); no operative exception has been granted |
 
 **Reminder:** These checkboxes describe documentation/repository preparation only. They do not imply a functional browser.
