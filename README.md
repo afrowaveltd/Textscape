@@ -5,7 +5,7 @@
 
 **The Web. No Desktop Required.**
 
-Textscape is a proposed open, terminal-native browser and information workspace. The goal is to bring capable web navigation, a built-in email client (**Textbird**), personal automation, event monitoring, optional AI assistance, and unusually transparent privacy controls to the terminal—without requiring a graphical desktop.
+Textscape is a proposed **public-source, ethically civilian-only** terminal-native browser and information workspace. Its final legal license is still being drafted; publication of this concept repository does not grant blanket reuse rights. The goal is to bring capable web navigation, a built-in email client (**Textbird**), personal automation, event monitoring, optional AI assistance, and unusually transparent privacy controls to the terminal—without requiring a graphical desktop.
 
 Textscape is intended to work across modern desktops, servers, SSH sessions, and constrained hardware. A small device may perform work more slowly or lazily, but features must not be arbitrarily removed based solely on a preselected hardware class. Some platform capabilities (images, audio, desktop notifications, clipboard) necessarily depend on the host terminal or OS.
 
@@ -17,6 +17,8 @@ Textscape is intended to work across modern desktops, servers, SSH sessions, and
 4. **Evidence before verdicts:** explain exactly what is claimed, independently supported, unverified, contradicted, or interpreted; preserve exact words when facts warrant them, not euphemisms.
 5. **Tests before implementation:** map specification requirements to executable tests; a new engine adapter receives a meaningful, comparable conformance report.
 6. **Modular and replaceable:** shared contracts for JS engines, storage, notifications, plugins, AI providers, collectors, and UI frontends.
+9. **Rust-first, interoperable:** application logic in Rust; versioned C ABI and focused C/C++ shims only when native third-party components require them.
+10. **Civil-only distribution intent:** free and widely reusable for civilian users, never for military, policing, intelligence or repressive purposes; enforceable terms remain to be finalized.
 7. **Slow is smooth:** establish contracts and test baselines sequentially; parallelize only demonstrably independent work.
 8. **Localization from the start:** all user-facing strings are localization resources, not hard-coded English UI text.
 
@@ -48,6 +50,8 @@ Textscape is intended to work across modern desktops, servers, SSH sessions, and
 - [Documentation hub](docs/README.md)
 - [Vision, scope and product principles](docs/VISION.md)
 - [System architecture](docs/architecture/SYSTEM.md)
+- [Rust / C ABI / C++ language responsibilities](docs/architecture/LANGUAGE-AND-FFI.md)
+- [Afrowave civil-only licensing policy — not a final license](docs/licensing/AFROWAVE-CIVIL-ONLY-POLICY.md)
 - [Browser and runtime adapters](docs/architecture/BROWSER-RUNTIME.md)
 - [Workloads, watchers and background worker](docs/architecture/WORKLOADS.md)
 - [Textbird and notification service](docs/architecture/MAIL-NOTIFICATIONS.md)
@@ -70,4 +74,4 @@ Textscape is intended to work across modern desktops, servers, SSH sessions, and
 
 This repository is a **design notebook and prospective project seed**, not a functioning application, a released product, a verified security solution, or an endorsement of any specific engine. Conformance, performance, compatibility, AI analysis, and privacy guarantees are targets to test, not claims of existing achievement. Configuration snippets in this repository are illustrative and not stable schemas.
 
-**Licensing:** public visibility does not, by itself, grant reuse rights. The project license and treatment of third-party dependencies remain an explicit decision; see [open questions](docs/planning/OPEN-QUESTIONS.md). No license is silently asserted for code that does not yet exist.
+**Licensing:** the project owner has selected an **Afrowave Civil-Only ethical licensing policy**: broad freedoms for civilian users, but no use by or for military, police/law-enforcement, intelligence or repressive institutions. This is **not OSI Open Source**, and the binding legal text is **not yet adopted**. Public visibility is not a license grant. See [civil-only policy](docs/licensing/AFROWAVE-CIVIL-ONLY-POLICY.md) and [open drafting questions](docs/planning/OPEN-QUESTIONS.md). Third-party components retain their original licenses.
