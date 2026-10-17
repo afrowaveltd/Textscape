@@ -37,9 +37,13 @@
 - AI agents and plugins are distinct authenticated principals with scoped capabilities, auditing, and no ambient access to OS credentials, shell, or internal data.
 - Commands are uniform and drive TUI menus, shortcuts, optional CLI, plugin actions, and future GUI, with a stable versioning strategy.
 
+## Implementation language allocation
+
+**Accepted architecture direction:** Textscape-owned core, TUI, mail, worker, storage, privacy, automation and tests are written primarily in **Rust**. A **C-compatible ABI** is the stable cross-language boundary when a native engine is integrated; dedicated **C shims** and **thin C++ wrappers** are used only where necessary. Native FFI is not a security boundary; process isolation must be considered separately. No concrete ABI, C/C++ adapter or Rust code has been implemented. See [language and FFI architecture](LANGUAGE-AND-FFI.md) and [ADR 0001](../decisions/0001-rust-first-native-interop.md).
+
 ## Candidate components (not commitments)
 
-- Rust workspace; `ratatui`/`crossterm` for TUI, native terminal images where available.
+- Rust workspace as agreed default; `ratatui`/`crossterm` for TUI are candidate dependencies, with native terminal images where available.
 - DOM/layout choices to prototype rather than presume (Servo research candidate, potentially an independent adapter); JS candidates QuickJS-NG, Boa, SpiderMonkey and V8.
 - Native process isolation where possible for hostile content and risky native adapters; per-process memory/CPU constraints.
 - SQLite or comparable durable local store, with schema migration, transactional updates and backup/export; final technology undecided.
