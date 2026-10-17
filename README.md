@@ -17,10 +17,10 @@ Textscape is intended to work across modern desktops, servers, SSH sessions, and
 4. **Evidence before verdicts:** explain exactly what is claimed, independently supported, unverified, contradicted, or interpreted; preserve exact words when facts warrant them, not euphemisms.
 5. **Tests before implementation:** map specification requirements to executable tests; a new engine adapter receives a meaningful, comparable conformance report.
 6. **Modular and replaceable:** shared contracts for JS engines, storage, notifications, plugins, AI providers, collectors, and UI frontends.
-9. **Rust-first, interoperable:** application logic in Rust; versioned C ABI and focused C/C++ shims only when native third-party components require them.
-10. **Civil-only distribution intent:** free and widely reusable for civilian users, never for military, policing, intelligence or repressive purposes; enforceable terms remain to be finalized.
 7. **Slow is smooth:** establish contracts and test baselines sequentially; parallelize only demonstrably independent work.
 8. **Localization from the start:** all user-facing strings are localization resources, not hard-coded English UI text.
+9. **Rust-first, interoperable:** application logic in Rust; versioned C ABI and focused C/C++ shims only when native third-party components require them.
+10. **Civil-only distribution intent:** free and widely reusable for civilian users, never for military, policing, intelligence or repressive purposes; enforceable terms remain to be finalized.
 
 ## Product areas
 
