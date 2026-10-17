@@ -2,9 +2,9 @@
 
 These are deliberately **not** answered by this first documentation commit.
 
-1. **Project license:** MIT/Apache-2.0/MPL/GPL or another model? The user has elsewhere expressed interest in civil-only restrictions, which are not OSI-open-source-compatible. Clarify intended permissions and contribution expectations before publishing a LICENSE. Third-party components retain their own licenses.
+1. **License wording and compatibility (policy already accepted):** Afrowave Civil-Only usage restrictions are an approved project direction, not a vague possibility. Finalize a legally reviewed custom license, covered military/police/intelligence/repressive uses, humanitarian exception and enforcement definitions, contribution agreement and upstream dependency compatibility. Do not call this OSI Open Source or treat the draft as an operative grant. See [policy](../licensing/AFROWAVE-CIVIL-ONLY-POLICY.md) and [ADR 0002](../decisions/0002-afrowave-civil-only-policy.md).
 2. **Final name / repository slug / trademark:** Textscape Navigator, Textbird, "The Web. No Desktop Required." and a distinct 'T' icon are working branding.
-3. **Core language and runtime:** Rust favored; assess retained Servo components vs alternative HTML/layout, CSS, DOM and JS engines; compare real licensing, footprint and security.
+3. **Engine/runtime implementation under accepted language allocation:** Rust is the default Textscape-owned implementation language; C-compatible ABI and narrow C/C++ adapters are the accepted native interoperability direction. Open questions are which DOM/layout/JS engines to select, exact boundary and process isolation, ABI specification, dependency licensing and measured footprint. See [languages](../architecture/LANGUAGE-AND-FFI.md) and [ADR 0001](../decisions/0001-rust-first-native-interop.md).
 4. **Scope of engine interchangeability:** native plugin ABI versus process boundary and GC/DOM binding semantics; identify unavoidable engine-specific affordances.
 5. **Web standard coverage:** which APIs and conformance cases gate the first usable preview, and how should terminal-only presentation differences be evaluated?
 6. **Persistence:** exact store technology/schema migrations/encryption, storage partition model, backups and deletion semantics.
