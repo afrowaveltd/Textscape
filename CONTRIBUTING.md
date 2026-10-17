@@ -25,4 +25,4 @@ Before making changes, read the [canonical implementation status](IMPLEMENTATION
 
 Do not include credentials, personal information or private mail in public issues or reports. All proposed AI-generated code requires independent review.
 
-**Licensing for contributions remains undecided**. Do not contribute substantial third-party code until a license and contributor policy have been explicitly chosen and published.
+**The licensing policy is chosen, but the legal license text is not finalized.** Textscape intends an [Afrowave Civil-Only ethical policy](docs/licensing/AFROWAVE-CIVIL-ONLY-POLICY.md) with broad civilian rights and excluded military, law-enforcement, intelligence and repressive uses. It is not an OSI Open Source license. Do not import substantial external code before a finalized license and contribution policy are published; original upstream licenses remain in force.
