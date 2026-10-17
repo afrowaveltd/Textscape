@@ -35,8 +35,17 @@ Textscape is intended to work across modern desktops, servers, SSH sessions, and
 | Notification Service | Tab counters, terminal bell, OS notifications, sounds, grouping, privacy settings |
 | Shell Panel | Optional independent PTY/ConPTY shell session at the bottom of the TUI, controlled by the user |
 
+## Canonical status and documentation
+
+- **[IMPLEMENTATION_STATUS.md](IMPLEMENTATION_STATUS.md) is the single source of truth for current, verified implementation progress.** Do not infer working functionality from a concept description.
+- **[Documentation hub](docs/README.md)** indexes the architecture, security, testing, interfaces and project process.
+- **[Development workflow](docs/planning/DEVELOPMENT-WORKFLOW.md)** defines proposal, ADR, acceptance tests, independent review and status updates.
+- **[Requirement traceability](docs/planning/REQUIREMENTS-TRACEABILITY.md)** records prospective acceptance criteria; all tests are unimplemented/unexecuted at this point.
+
 ## Documentation index
 
+- [Implementation status — canonical](IMPLEMENTATION_STATUS.md)
+- [Documentation hub](docs/README.md)
 - [Vision, scope and product principles](docs/VISION.md)
 - [System architecture](docs/architecture/SYSTEM.md)
 - [Browser and runtime adapters](docs/architecture/BROWSER-RUNTIME.md)
@@ -54,6 +63,7 @@ Textscape is intended to work across modern desktops, servers, SSH sessions, and
 - [Open questions](docs/planning/OPEN-QUESTIONS.md)
 - [Publishing this draft to GitHub](docs/planning/PUBLISHING.md)
 - [Architecture decision log](docs/decisions/README.md)
+- [ADR template](docs/decisions/0000-template.md)
 - [Contributing](CONTRIBUTING.md) and [AI development guidance](AGENTS.md)
 
 ## Status and expectations
