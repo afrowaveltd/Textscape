@@ -22,6 +22,10 @@ Document and pursue an **Afrowave Civil-Only ethical source-available license** 
 3. **Custom ethical source-available license:** matches the stated owner intent, but has greater legal-review, adoption, compatibility and enforceability costs. **Selected direction; text unresolved.**
 4. **OSI license plus voluntary ethics pledge:** may communicate values but would not enforce the exclusion. Not an equivalent substitute.
 
+## Risk proportionality and existing AHPL precedent
+
+Textscape's author-monitoring, aggregation and background AI tools make repression and targeting misuse unusually foreseeable. The chosen protection is **project-specific** and does not automatically amend other Afrowave software licenses (for example, already distributed MIT utilities). Afrowave's existing AHPL v1 is a reference, not text adopted by this ADR. Its wording must be assessed to avoid banning normal civilian monitoring of published articles, and its penalty clauses must be independently reviewed for enforceability. See [risk-based AHPL review](../licensing/RISK-BASED-AHPL-REVIEW.md).
+
 ## Consequences
 
 - Public repository != unrestricted reuse.
