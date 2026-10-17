@@ -4,11 +4,11 @@
 
 ## Stage 0 — repository and decision baseline
 
-This documentation seed, decision log, contribution standards, licensing decision, target host architectures, security assumptions and feature prioritization. Decide canonical project ownership. Record alternatives and unresolved questions without silently resolving them.
+This documentation seed, decision log, contribution standards, accepted Rust-first/C-ABI/C++ adapter direction and civil-only licensing policy. Final legal text and third-party dependency compatibility remain open gates. Decide target architectures, security assumptions, feature priorities and ownership.
 
 ## Stage 1 — minimal core and test harness
 
-Rust workspace prototype (if retained as chosen language), structured errors, command/event model, config and localization infrastructure, lightweight TUI tabs/URL bar/status, simple storage, deterministic fixtures, CI. Establish conformance infrastructure before adding a JS engine. Basic page navigation/HTML text rendering and inspectable network progress.
+Rust workspace prototype under [ADR 0001](../decisions/0001-rust-first-native-interop.md), structured errors, command/event model, config and localization infrastructure, lightweight TUI tabs/URL bar/status, simple storage, deterministic fixtures, CI. Establish conformance infrastructure before adding a JS engine. Basic page navigation/HTML text rendering and inspectable network progress.
 
 ## Stage 2 — browser runtime vertical slice
 
