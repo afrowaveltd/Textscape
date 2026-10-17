@@ -14,6 +14,8 @@ Read [IMPLEMENTATION_STATUS.md](IMPLEMENTATION_STATUS.md) first. Follow the cano
 - Proposed product UI copy should be localizable. All published specs/docs written in English unless a separate translation is supplied.
 - Do not claim "neutral language" means euphemism. Use strongest accurate wording warranted by evidence; identical evidentiary facts get identical treatment independent of actors.
 - No auto-generated fake passing screenshots, reports or test logs. Mark samples clearly as illustrative.
+- Follow [ADR 0001](docs/decisions/0001-rust-first-native-interop.md): Rust-owned core, C ABI for native integration, thin C/C++ shims where needed; no engine-native types in shared contracts.
+- Follow [ADR 0002](docs/decisions/0002-afrowave-civil-only-policy.md): ethical civilian-only intent; no adopted LICENSE yet. Do not label the project OSI Open Source or silently relicense upstream components.
 - Before changing licensing, project scope, security defaults or core interfaces, record a dedicated decision and seek explicit review.
 - For any PR claiming implemented work, update the canonical implementation status and link observable tests, executed commands, environments and evidence; leave tests NOT_RUN until actually executed.
 - Do not create a parallel `Docs/` directory; use the existing lowercase `docs/` on all platforms.
