@@ -20,6 +20,10 @@ This is not a claim that a license makes misuse impossible. Code can be copied u
 
 Afrowave can apply different licenses to different projects according to the foreseeable severity of misuse. A small utility can retain MIT while a high-risk author-monitoring/AI automation system such as Textscape warrants stronger civil-only protection. An earlier internal AHPL v1 license offers a useful precedent, **not binding Textscape text**. Its broad surveillance wording, unusually high penalties and open-ended ethics clause need careful review so peaceful civilian article watchers remain permitted and legal restrictions are specific and potentially enforceable. See [risk-based AHPL review](RISK-BASED-AHPL-REVIEW.md).
 
+## Policy refinement currently under discussion (not yet an amendment)
+
+The owner is exploring an **absolute, no-exception prohibition on uses serving the repression of people or groups, including when repression is justified as part of a criminal proceeding or under a government-assigned "terrorist" label**. At the same time, the owner wishes to explore narrowly allowed **harm-reduction uses by an attacked state**, such as civilian evacuation and rescue, while explicitly excluding retaliatory harm. This purpose-based approach may qualify the earlier institution-based prohibition. **It is not yet a finalized license amendment or permission for any excluded party**; resolve this distinction explicitly before legal drafting. See [Use-Based Protection Proposal](USE-BASED-PROTECTION-PROPOSAL.md).
+
 ## Intended prohibited recipients / uses
 
 The finalized terms must address **direct and indirect** usage, modifications, derivative works, distribution and use through intermediaries or contractors **on behalf of or for the benefit of**:
