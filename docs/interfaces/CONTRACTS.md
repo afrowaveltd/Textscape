@@ -1,6 +1,6 @@
 # Preliminary interface sketches (NOT stable APIs)
 
-This file describes semantic contracts, **not** ready-to-compile Rust signatures, manifest schemas, or the final security model.
+This file describes semantic contracts, **not** ready-to-compile Rust signatures, manifest schemas, or the final security model. [ADR 0001](../decisions/0001-rust-first-native-interop.md) sets Rust as the primary language; native adapters may use a versioned C ABI and targeted C/C++ shims, with explicit ownership, exception, GC and threading tests.
 
 ## JavaScript engine adapter
 
