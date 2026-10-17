@@ -11,6 +11,8 @@ Thank you for considering Textscape. At this stage we are recording and validati
 - Suggest a small vertical-slice prototype with measurable acceptance criteria.
 - Improve docs by naming exact conflicts between decisions rather than silently resolving them.
 
+Before making changes, read the [canonical implementation status](IMPLEMENTATION_STATUS.md), [documentation index](docs/README.md), [development workflow](docs/planning/DEVELOPMENT-WORKFLOW.md), and [requirement matrix](docs/planning/REQUIREMENTS-TRACEABILITY.md). A documented feature is not an implemented feature.
+
 ## Proposed contribution workflow
 
 1. Open an issue explaining user value, supporting standards/evidence and scope.
@@ -18,7 +20,8 @@ Thank you for considering Textscape. At this stage we are recording and validati
 3. Add tests or reproducible fixtures first; separate actual test runs from proposed expectations.
 4. Make a small change on a feature branch; do not modify unrelated modules.
 5. Run the appropriate suite and document results. No "all green" claim unless run.
-6. Submit PR with data flow/permissions/localization impact, risks and fallback.
+6. Update `IMPLEMENTATION_STATUS.md` and requirement evidence if the change affects project maturity; distinguish tests that were run from those planned.
+7. Submit PR with data flow/permissions/localization impact, risks and fallback.
 
 Do not include credentials, personal information or private mail in public issues or reports. All proposed AI-generated code requires independent review.
 
