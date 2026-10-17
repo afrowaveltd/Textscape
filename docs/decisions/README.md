@@ -17,7 +17,13 @@ This is a **preliminary record of design intentions**, not a formal ratified ADR
 | D-011 | AI has no arbitrary shell privilege | Core principle | User runs their own commands; isolated repair agent separately |
 | D-012 | One owner for shared contracts / cautious parallelism | Core principle | Prevent race/conflicting changes; prioritize green tests |
 | D-013 | Localization first | Core principle | English docs, localized interface and prompts |
-| D-014 | License policy | **Unresolved** | Public repository is not automatically open-source licensed |
+| D-014 | License policy | **Policy decided / license text pending** | Afrowave Civil-Only ethics; not OSI Open Source. [ADR 0002](0002-afrowave-civil-only-policy.md) |
+| D-015 | Language responsibilities | **Accepted direction** | Rust first, C ABI, limited C/C++ native adapters. [ADR 0001](0001-rust-first-native-interop.md) |
+
+## Accepted direction records
+
+- [ADR 0001 — Rust-first core and targeted C/C++ interoperability](0001-rust-first-native-interop.md)
+- [ADR 0002 — Afrowave civil-only policy](0002-afrowave-civil-only-policy.md)
 
 ## ADR template and decision governance
 
