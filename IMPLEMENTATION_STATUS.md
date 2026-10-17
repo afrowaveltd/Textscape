@@ -13,9 +13,10 @@
 - **Application source:** **NOT STARTED**. No production Rust workspace, browser, mail client, worker, UI, or extension runtime has been implemented.
 - **Automated project tests / CI:** **NOT CONFIGURED / NOT RUN**. There are no legitimate Textscape green-test totals to report.
 - **Release artifacts:** none. No alpha, preview, stable version, or software package exists.
-- **Project license:** **UNDECIDED**. Public visibility alone does not grant open-source reuse rights.
+- **Project license:** **Civil-only ethical policy direction ACCEPTED; legal license text NOT FINALIZED.** Public source does not grant rights by itself, and the intended restrictions are not OSI Open Source. See [licensing policy](docs/licensing/AFROWAVE-CIVIL-ONLY-POLICY.md) and [ADR 0002](docs/decisions/0002-afrowave-civil-only-policy.md).
 - **Localizations:** localization-first is documented; no localization resources or translations have been implemented.
-- **Third-party engine selection:** not finalized; candidates are research subjects, not integrated dependencies.
+- **Language direction:** **Rust-first core with versioned C ABI and optional narrow C/C++ native adapters ACCEPTED.** No language-specific application source, FFI implementation or toolchain validation exists yet. See [ADR 0001](docs/decisions/0001-rust-first-native-interop.md).
+- **Third-party engine selection:** not finalized; candidates are research subjects, not integrated dependencies. Third-party license compatibility remains unverified.
 
 ## Component status
 
@@ -24,6 +25,8 @@ The distinction between *documented concept* and *implemented code* is mandatory
 | Component | Design baseline | Implementation | Validation |
 | --- | --- | --- | --- |
 | Navigator, tabs, TUI, F12 | Initial draft | Not started | Not run |
+| Core implementation languages / native FFI | Rust/C ABI/C++ division accepted in principle | Not started | Not run |
+| Afrowave Civil-Only licensing | Policy accepted; operative terms pending legal drafting | No LICENSE adopted | Not applicable |
 | Web standards, DOM/CSS/layout | Initial draft | Not started | Not run |
 | JavaScript runtime adapter API | Initial draft | Not started | Not run |
 | ECMAScript / DOM / WASM conformance | Test strategy documented | Not started | Not run |
@@ -52,7 +55,9 @@ The distinction between *documented concept* and *implemented code* is mandatory
 - [x] Initial repository published publicly on GitHub.
 - [x] Initial design/architecture documents collected in English.
 - [x] Root implementation status and documentation governance added.
-- [ ] Select and publish a project license and contribution policy.
+- [x] Approve the Rust-first / C ABI / limited C++ language direction (ADR 0001).
+- [x] Approve Afrowave Civil-Only licensing *policy direction* (ADR 0002).
+- [ ] Finalize and publish a legally reviewed LICENSE and contribution policy; complete dependency compatibility audit.
 - [ ] Ratify first architecture decisions using individual ADRs.
 - [ ] Agree on minimal implementation target and supported test platforms.
 - [ ] Approve first vertical-slice acceptance criteria and test fixture policy.
@@ -60,13 +65,14 @@ The distinction between *documented concept* and *implemented code* is mandatory
 
 ## Next recommended action
 
-**Decide the repository license and ratify the minimal Stage 1 vertical slice before writing production code.** Then establish the executable test harness, minimal Rust workspace (if Rust is confirmed), basic terminal shell, and first end-to-end navigation fixture. See [roadmap](docs/planning/ROADMAP.md) and [open decisions](docs/planning/OPEN-QUESTIONS.md).
+**Complete legally reviewed Afrowave Civil-Only license text, third-party dependency compatibility and contribution policy; then ratify the minimal Stage 1 vertical slice.** The Rust-first/C-ABI direction is agreed, so establish an executable test harness and minimal Rust workspace only after stage-gate acceptance. Next implement a small end-to-end terminal navigation fixture. See [roadmap](docs/planning/ROADMAP.md) and [open decisions](docs/planning/OPEN-QUESTIONS.md).
 
 ## Status update record
 
 | Date | Change | Evidence |
 | --- | --- | --- |
 | 2026-10-17 | Initial concept documentation and Git repository published | [Repository](https://github.com/afrowaveltd/Textscape) |
-| 2026-10-17 | Canonical implementation status, docs index and working process established | This commit; no implementation or test execution implied |
+| 2026-10-17 | Canonical implementation status, docs index and working process established | Initial documentation commits; no implementation or test execution implied |
+| 2026-10-17 | Rust-first C ABI / C++ adapter direction accepted; civil-only ethical policy recorded | [ADR 0001](docs/decisions/0001-rust-first-native-interop.md), [ADR 0002](docs/decisions/0002-afrowave-civil-only-policy.md); no source code or final license |
 
 **Reminder:** These checkboxes describe documentation/repository preparation only. They do not imply a functional browser.
