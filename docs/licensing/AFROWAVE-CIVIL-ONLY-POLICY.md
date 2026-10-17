@@ -58,7 +58,9 @@ Relevant references:
 
 ## Humanitarian exceptions and enforcement — drafting topics, not automatic rights
 
-The Afrowave civil-only model has contemplated **exceptional, temporary, purpose-limited humanitarian authorization** for urgent life/health or disaster relief. Any such exception must be explicitly granted by the responsible Afrowave authority, narrowly scoped, revocable and documented; no default authorization exists.
+**Accepted policy principle:** Afrowave may issue an **individually assessed, explicitly approved, temporary and strictly purpose-limited humanitarian exception**, including to otherwise excluded armed forces **only for a defined civilian rescue/disaster-relief mission** (for example, locating people missing after an earthquake). The exceptional grant must name its intended users, functions and incident, have a finite expiry, prohibit unrelated coercive/intelligence use and require renewed approval for extension. The participation of military rescue personnel neither automatically grants permission nor automatically defeats a legitimate life-saving request. The ordinary civil-only exclusion remains in force for everything outside the granted scope. No exception currently exists for Textscape. See [Humanitarian Emergency Exceptions](HUMANITARIAN-EXCEPTIONS.md) for the written authorization and safeguard proposal.
+
+Final grant wording, signatory authority, incident verification, handling of sensitive victim data, narrowly scoped audit, revocation and emergency continuation must be legally reviewed before they become operative.
 
 Potential contractual penalties, calculation tied to national GDP, recipients of remedies, voting/approval thresholds and enforcement jurisdictions are **not finalized in this repository**. Do not silently invent thresholds or place unreviewed penalty text in a binding license. Any penalty must be separately assessed for legal enforceability and proportionality by qualified counsel.
 
