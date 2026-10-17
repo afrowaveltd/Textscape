@@ -32,7 +32,8 @@ Textscape's author-monitoring, aggregation and background AI tools make repressi
 - Accurate terminology in all documents and package metadata.
 - Versioned notices and contributions policy are prerequisites to significant contributions or binary redistribution.
 - Assess MIT/BSD/MPL/GPL third-party dependencies separately; no retroactive restriction on upstream rights.
-- Humanitarian exceptions, remedies, specific covered institutions and global enforceability require dedicated legal drafting.
+- **Accepted humanitarian exception principle:** individually considered, explicit, incident-specific, purpose-limited, temporary approval may be granted for lifesaving disaster/rescue activity even when otherwise excluded military units assist. No general military license, implicit consent, or allowed secondary intelligence/repressive use. See [exception policy](../licensing/HUMANITARIAN-EXCEPTIONS.md).
+- Final humanitarian exception instrument, remedies, specific covered institutions and global enforceability require dedicated legal drafting.
 - The license should not depend on unidentified persons/groups getting informal permissions to do ordinary civilian tasks.
 
 ## Verification and status
